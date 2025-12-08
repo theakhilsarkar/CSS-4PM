@@ -1,0 +1,62 @@
+/* tag selector - tagname*/
+/* div {
+    height: 200px;
+    width: 300px;
+    background-color: chartreuse;
+    margin: 10px;
+} */
+
+/* class selector - .classname*/
+/* .box {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(27, 17, 108);
+    margin: 10px;
+} */
+
+/* id selector - #idname*/
+/* #divBox {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(183, 32, 34);
+    margin: 10px;
+} */
+
+/* div>p {
+    color: red;
+} */
+
+/* psuedo elements - to give style to specifc content of element */
+
+/* p::first-letter {
+    font-size: 60px;
+    color: purple;
+}
+
+p::first-line {
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+p::selection {
+    background-color: green;
+    color: white;
+} */
+
+/* psuedo class - to give style to specific child element of parent element */
+/* we can select element without class/id name, unnecessary naming will be solved.*/
+
+/* p {
+    color: blue;
+}
+
+div p {
+    color: blue;
+} */
+
+/* div p:nth-child(3) {
+    font-size: 30px;
+    font-weight: 600;
+    color: blue;
+} */
+

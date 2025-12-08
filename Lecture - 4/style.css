@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    color: brown;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.box {
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(183, 183, 183);
+    padding-left: 25px;
+    padding-top: 25px;
+    border: 15px solid yellow;
+}
+
+.inner-box {
+    height: 350px;
+    width: 350px;
+    background-color: rgb(29, 29, 251);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.img {
+    height: 310px;
+    width: 310px;
+    border-radius: 10px;
+}
+
+/*
+
+height = verticle size, width = horizontal size
+
+margin - outer space
+padding - innerspace
+
+div - used to create custom shape & its also group multiple elements.
+div default direction -> colum -> top to bottom
+
+*/

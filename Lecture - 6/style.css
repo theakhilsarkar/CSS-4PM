@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.img-1 {
+    background-image: url("https://images.pexels.com/photos/735988/pexels-photo-735988.jpeg");
+}
+
+.img-2 {
+    background-image: url("https://images.pexels.com/photos/18450409/pexels-photo-18450409.jpeg");
+}
+
+.img-3 {
+    background-image: url("https://images.pexels.com/photos/6855229/pexels-photo-6855229.jpeg");
+}
+
+.parallex {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content {
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.content h1 {
+    font-size: 80px;
+}
