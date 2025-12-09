@@ -1,0 +1,12 @@
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: darkolivegreen;
+}

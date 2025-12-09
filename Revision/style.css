@@ -1,0 +1,50 @@
+/* 1. select element 
+-> 1. tag - 
+-> 2. class - group
+-> 3. id - unique
+
+2. provide styling */
+
+
+/* h1 {
+    color: red;
+    font-size: 50px;
+}
+
+#about {
+    color: green;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 5px;
+    word-spacing: 50px;
+    text-decoration: line-through;
+}
+
+.group {
+    color: blue;
+} */
+
+h1{
+    text-align: center;
+}
+.box {
+    height: 200px;
+    width: 400px;
+    background-color: chocolate;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid rgb(0, 255, 47);
+}
+
+.box-2 {
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
