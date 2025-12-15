@@ -1,0 +1,66 @@
+/*
+property name: value
+
+color: red;
+
+position - how your element should be position in document(html file)
+
+even
+margin, padding, border radius, fontsize - 2,4,6,8,10....54
+24px
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* 
+.container {
+    position: relative;
+    height: 400px;
+    width: 450px;
+    background-color: yellow;
+}
+
+.box {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    right: -20px;
+    top: -20px;
+} */
+
+.heading-1 {
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+.heading-2 {
+    position: sticky;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: burlywood;
+}
+
+.content {
+    height: 100vh;
+    background-color: beige;
+}

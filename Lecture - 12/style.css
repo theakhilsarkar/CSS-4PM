@@ -1,0 +1,61 @@
+/*
+
+what is main-axis of row - x
+what is main-axis of col - y
+what is cross-axis of row - y
+what is cross-axis of col - x
+what is default axis of element after display flex - x
+what is default axis of element after display flex & flex-direction:column - y
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.section {
+    height: 450px;
+    background-color: rgb(194, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    /* height: 150px; */
+    border-radius: 8px;
+    background-color: darkcyan;
+    margin: 10px;
+}
+
+.item {
+    flex-basis: 200px;
+}
+
+.item-1 {
+    flex-basis: 100px;
+}
+
+.item-2 {
+    flex-basis: 150px;
+}
+
+.item-3 {
+    flex-grow: 2;
+}
+
+.item-shrink {
+    flex-shrink: 0;
+}
+
+.order {
+    align-self: stretch;
+    order: 2;
+}
+
+
