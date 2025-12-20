@@ -5,7 +5,7 @@
 body {
     height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: #00050D;
     margin: 0px;
     padding: 0px;
 }
@@ -13,14 +13,16 @@ body {
 nav {
     display: flex;
     justify-content: center;
-
 }
 
 .nav-bar {
+    z-index: 5;
+    /* margin-top: 10px; */
+    height: 65px;
     position: fixed;
     backdrop-filter: blur(12px);
     background: rgba(0, 0, 0, 0.2);
-    padding: 18px 8px;
+    padding: 0px 8px;
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -30,9 +32,16 @@ nav {
 
 .nav-bar a {
     text-decoration: none;
-    padding: 0px 10px;
+    padding: 0px 20px;
     color: white;
     font-weight: 600;
+}
+
+.nav-bar a:hover {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
 }
 
 .image {
@@ -47,14 +56,59 @@ nav {
     align-items: center;
 }
 
+.nav-button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #1A98FF;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 .section-1 {
+    position: relative;
+    top: 40px;
+    z-index: 1;
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-image: url("./images/section-1.jpg");
+    color: white;
+}
+
+.section-content {
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+
+.section h1 {
+    font-size: 48px;
+}
+
+.section p {
+    font-size: 18px;
+}
+
+.section button {
+    height: 60px;
+    width: 200px;
+    color: black;
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
+    transition: transform ease 0.3s;
+}
+
+.section button:hover {
+    cursor: pointer;
+    transform: scale(1.08);
 }
 
 .section-2 {
+    color: white;
     width: 100%;
     height: 100vh;
     background-size: cover;
